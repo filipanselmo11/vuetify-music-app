@@ -2,10 +2,12 @@
   <v-app>
     <v-app-bar
       app
-      color="primary"
+      color="color19"
       dark
     >
-    Vuetify App Music
+   <span style="color:#E64A19;">
+     Vuetify Music
+   </span>
     </v-app-bar>
     <v-main>
       <br/>

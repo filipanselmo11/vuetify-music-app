@@ -1,20 +1,20 @@
 <template>
-  <v-card class="mx-auto" max-width="344">
+  <v-card class="mx-auto" max-width="344" color="color13">
     <v-img :src="imagePath" width="480"></v-img>
-    <v-card-title>{{ name }}</v-card-title>
+    <v-card-title style="color:#FFF323;">{{ name }}</v-card-title>
     <v-card-actions>
         <v-dialog v-model="dialog" fullscreen hide-overlay transition="dialog-bottom-transition">
             <template v-slot:activator="{ on, attrs}">
-                <v-btn text v-bind="attrs" v-on="on">
+                <v-btn text v-bind="attrs" v-on="on" color="accent">
                     Abrir
                 </v-btn>
             </template>
             <v-card>
-                <v-toolbar dark color="primary">
-                    <v-btn icon dark @click="dialog = false">
+                <v-toolbar dark color="color9">
+                    <v-btn icon dark @click="dialog = false" color="color19">
                         <v-icon>mdi-close</v-icon>
                     </v-btn>
-                    <v-toolbar-title>{{name}}</v-toolbar-title>
+                    <v-toolbar-title style="color:#000000;">{{name}}</v-toolbar-title>
                 </v-toolbar>
                 <v-card-text class="mt-4">
                     <expansion-component
