@@ -6,7 +6,7 @@
         <v-dialog v-model="dialog" fullscreen hide-overlay transition="dialog-bottom-transition">
             <template v-slot:activator="{ on, attrs}">
                 <v-btn text v-bind="attrs" v-on="on">
-                    OK
+                    Abrir
                 </v-btn>
             </template>
             <v-card>
@@ -20,7 +20,12 @@
                     <expansion-component
                         :firstAlbum="firstAlbum"
                         :secondAlbum="secondAlbum"
-                        :thirdAlbum="thirdAlbum"></expansion-component>
+                        :thirdAlbum="thirdAlbum"
+                        :fourAlbum="fourAlbum"
+                        :firstItem="firstItem"
+                        :secondItem="secondItem"
+                        :thirdItem="thirdItem"
+                        :fourItem="fourItem"></expansion-component>
                 </v-card-text>
             </v-card>
         </v-dialog>
@@ -41,12 +46,37 @@ export default {
     imagePath: {
       type: String,
     },
+    firstAlbum: {
+      type: String,
+      default: "",
+    },
+    secondAlbum: {
+      type: String,
+      default: "",
+    },
+    thirdAlbum: {
+      type: String,
+      default: "",
+    },
+    fourAlbum: {
+      type: String,
+      default: "",
+    },
+    firstItem: {
+      type: Array,
+    },
+    secondItem: {
+      type: Array,
+    },
+    thirdItem: {
+      type: Array,
+    },
+    fourItem: {
+      type: Array,
+    },
   },
   data: () => ({
     dialog: false,
-    firstAlbum: 'Slipknot',
-    secondAlbum: 'IOWA',
-    thirdAlbum: 'The End So Far',
   }),
 };
 </script>
