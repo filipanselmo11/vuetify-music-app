@@ -2,46 +2,46 @@
   <div class="text-center">
     <div class="mt-3">
         <v-row>
-            <v-col cols="4" xs="6">
+            <v-col cols="4" sm="4" xs="4">
                 <slipknot-component></slipknot-component>
             </v-col>
-            <v-col cols="4" xs="6">
+            <v-col cols="4" sm="4" xs="4">
                 <korn-component></korn-component>
             </v-col>
-            <v-col cols="4" xs="6">
+            <v-col cols="4" sm="4" xs="4">
                 <avril-lavigne-component></avril-lavigne-component>
             </v-col>
         </v-row>
          <v-row>
-            <v-col cols="4" xs="6">
+            <v-col cols="4" sm="4" xs="4">
                 <limp-bizkit-component></limp-bizkit-component>
             </v-col>
-            <v-col cols="4" xs="6">
+            <v-col cols="4" sm="4" xs="4">
                 <korn-component></korn-component>
             </v-col>
-            <v-col cols="4" xs="6">
-                <korn-component></korn-component>
-            </v-col>
-        </v-row>
-         <v-row>
-            <v-col cols="4" xs="6">
-                <slipknot-component></slipknot-component>
-            </v-col>
-            <v-col cols="4" xs="6">
-                <korn-component></korn-component>
-            </v-col>
-            <v-col cols="4" xs="6">
+            <v-col cols="4" sm="4" xs="4">
                 <korn-component></korn-component>
             </v-col>
         </v-row>
          <v-row>
-            <v-col cols="4" xs="6">
+            <v-col cols="4" sm="4" xs="4">
                 <slipknot-component></slipknot-component>
             </v-col>
-            <v-col cols="4" xs="6">
+            <v-col cols="4" sm="4" xs="4">
                 <korn-component></korn-component>
             </v-col>
-            <v-col cols="4" xs="6">
+            <v-col cols="4" sm="4" xs="4">
+                <korn-component></korn-component>
+            </v-col>
+        </v-row>
+         <v-row>
+            <v-col cols="4" sm="4" xs="4">
+                <slipknot-component></slipknot-component>
+            </v-col>
+            <v-col cols="4" sm="4" xs="4">
+                <korn-component></korn-component>
+            </v-col>
+            <v-col cols="4" sm="4" xs="4">
                 <korn-component></korn-component>
             </v-col>
         </v-row>
