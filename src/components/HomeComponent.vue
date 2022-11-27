@@ -17,7 +17,7 @@
                 <limp-bizkit-component></limp-bizkit-component>
             </v-col>
             <v-col cols="4" sm="4" xs="4">
-                <korn-component></korn-component>
+                <linkin-park-component></linkin-park-component>
             </v-col>
             <v-col cols="4" sm="4" xs="4">
                 <korn-component></korn-component>
@@ -54,9 +54,10 @@ import AvrilLavigneComponent from './avrilLavigne/AvrilLavigneComponent.vue';
 import KornComponent from './korn/KornComponent.vue';
 import LimpBizkitComponent from './limpBizkit/LimpBizkitComponent.vue';
 import SlipknotComponent from './slipknot/SlipknotComponent.vue';
+import LinkinParkComponent from './linkinPark/LinkinParkComponent.vue';
 
 export default {
-  components: { SlipknotComponent, KornComponent, AvrilLavigneComponent, LimpBizkitComponent},
+  components: { SlipknotComponent, KornComponent, AvrilLavigneComponent, LimpBizkitComponent, LinkinParkComponent},
   name: "HomeComponent",
   data: () => ({
   }),
