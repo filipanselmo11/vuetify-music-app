@@ -25,21 +25,21 @@
         </v-row>
          <v-row>
             <v-col cols="4" sm="4" xs="4">
-                <slipknot-component></slipknot-component>
+                <sepultura-component></sepultura-component>
             </v-col>
             <v-col cols="4" sm="4" xs="4">
-                <korn-component></korn-component>
+                <metallica-component></metallica-component>
             </v-col>
             <v-col cols="4" sm="4" xs="4">
-                <korn-component></korn-component>
+                <slayer-component></slayer-component>
             </v-col>
         </v-row>
          <v-row>
             <v-col cols="4" sm="4" xs="4">
-                <slipknot-component></slipknot-component>
+                <nirvana-component></nirvana-component>
             </v-col>
             <v-col cols="4" sm="4" xs="4">
-                <korn-component></korn-component>
+                <soundgarden-component></soundgarden-component>
             </v-col>
             <v-col cols="4" sm="4" xs="4">
                 <korn-component></korn-component>
@@ -55,9 +55,25 @@ import KornComponent from './korn/KornComponent.vue';
 import LimpBizkitComponent from './limpBizkit/LimpBizkitComponent.vue';
 import SlipknotComponent from './slipknot/SlipknotComponent.vue';
 import LinkinParkComponent from './linkinPark/LinkinParkComponent.vue';
+import SepulturaComponent from './sepultura/SepulturaComponent.vue';
+import MetallicaComponent from './metallica/MetallicaComponent.vue';
+import SlayerComponent from './slayer/SlayerComponent.vue';
+import NirvanaComponent from './nirvana/NirvanaComponent.vue';
+import SoundgardenComponent from './soundgarden/SoundgardenComponent.vue';
 
 export default {
-  components: { SlipknotComponent, KornComponent, AvrilLavigneComponent, LimpBizkitComponent, LinkinParkComponent},
+  components: {
+        SlipknotComponent,
+        KornComponent,
+        AvrilLavigneComponent,
+        LimpBizkitComponent,
+        LinkinParkComponent,
+        SepulturaComponent,
+        MetallicaComponent,
+        SlayerComponent,
+        NirvanaComponent,
+        SoundgardenComponent
+        },
   name: "HomeComponent",
   data: () => ({
   }),
